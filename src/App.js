@@ -5,7 +5,7 @@ import productsData from "./vshcoolproducts";
 
 export default function App() {
   const productComponent = productsData.map((item) => (
-    <Product key={item.id} product={item}/>
+    <Product  product={item}/>
   ));
 
   return <div className="App">{productComponent}</div>;
